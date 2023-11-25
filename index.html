@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Form</title>
+
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+
+    <h1>Form</h1>
+
+
+    <form  action="" id="form" method="post" name="form" >
+      
+        <legend>Customer Form</legend>
+
+        <div  class="column"  >  
+
+            <div  class="input-group"  >
+                
+                <label for="name">  Name: </label> <br>
+                <input type="text"  id="name"  name ="name" placeholder="Write your name here"  > <br>
+
+            </div>
+
+            <div class="input-group" >  
+        
+                <label for="lastname"> Last Name: </label> <br>
+                <input type="text"  id="lastname"  name ="lastname"  placeholder="Write your last name here"> <br>
+        
+            </div>  
+
+        </div> 
+
+
+        <div  class="column"  >  
+
+            <div class="input-group" >  
+            
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+
+            </div>  
+
+
+            <div  class="input-group" >  
+        
+                <label for="email"> E-mail: </label> <br>
+                <input type="email"  id="email"  name ="email"  placeholder="Write your E-mail here"> <br>
+        
+            </div>  
+
+        </div> 
+
+
+
+        <div  class="column"  >  
+
+            <div  class="input-group" >  
+        
+            <label for="password"> Password: </label> <br>
+            <input type="password"  id="password"  name ="password" placeholder="Write your password here"> <br>
+        
+            </div>  
+
+            <div   class="input-group" >  
+        
+                <label for="phone"> Phone: </label> <br>
+                <input type="tel"  id="phone"  name ="phone" placeholder="Write your phone here"> <br>
+        
+            </div>      
+        
+        </div>     
+
+       
+        <div  class="column"  >  
+
+
+            <div  class="input-group"  >  
+        
+                <label for="zipcode"> Zip Code: </label> <br>
+                <input type="text"  id="zipcode"  name ="zipcode" placeholder="Write your zipcode here"> <br>
+        
+            </div>  
+
+
+            <div  class="input-group"  >  
+                <label for="gender"> Gender: </label> <br>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>     
+                    </select>
+            </div>  
+           
+        </div>    
+            
+        
+        <div  class="column"  >  
+           
+           
+            <div class="input-group" >  
+                 <label for="newsletter"> Newsletter: </label> 
+                <input type="checkbox"  id="Newsletter" > 
+                <SMall>I wish to receive the newsletter</SMall>
+            </div>  
+        
+
+            <div  class="input-group"  >  
+
+                <input type="radio" id="single" name="maritalstatus" value="single"> 
+                <label for="single"> Single </label> <br>
+        
+                <input type="radio" id="married" name="maritalstatus" value="married"> 
+                <label for="married"> Married </label> <br>
+
+                <input type="radio" id="widowed" name="maritalstatus" value="widowed"> 
+                <label for="widowed"> Widowed </label> <br>
+        
+                <input type="radio" id="divorced" name="maritalstatus" value="divorced"> 
+                <label for="divorced"> Married </label> <br>        
+            
+            </div>  
+
+        </div>    
+
+        <div  class="column"  >  
+
+            <div  class="input-group"  >  
+                
+                <input type="checkbox" id="primary" name="primary" value="primary">
+                <label for="primary"> Primary education </label><br>
+            
+                <input type="checkbox" id="secondary" name="secondary" value="secondary">
+                <label for="secondary"> Secondary education</label><br>
+            
+                <input type="checkbox" id="tertiary" name="tertiary" value="tertiary">
+                <label for="tertiary"> Tertiary education </label><br><br>
+                
+            </div>  
+
+            <div class="input-group" >  
+                
+                <label for="message"> Message </label><br>
+                <textarea name="message"> Write your text here
+                </textarea><br><br>
+                
+            </div>  
+        
+        </div>  
+
+
+
+        <div  class="input-group" >  
+          
+            <button type="button" class="button" > Submit </button>
+            <button type="reset"  class="button" > Reset </button>
+
+        </div>  
+         
+    </form>
+
+</body>
+
+</html>

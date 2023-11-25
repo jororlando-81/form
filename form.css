@@ -1,0 +1,62 @@
+html{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+
+h1{ 
+    text-align: center;
+    color: black;
+} 
+
+body{ 
+    background: rgb(107, 218, 107) ; 
+    background-size: 100% ;  
+    margin: 0;
+    height: 100%  ;
+    font-size: 14px;
+} 
+
+input{ 
+    box-sizing: border-box;
+    outline: none;
+    border-radius: 4px;
+}   
+
+.input-group{ 
+    margin: 10px  0 ;
+}
+
+.input-group label { 
+    color: black;
+}
+
+.input-group input :: placeholder { 
+    color: white;
+    font-weight: 300;
+}
+
+.column { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.column .input-group{ 
+    width: 50%;        
+}
+
+.button{ 
+    background-color: whitesmoke ;
+    border-radius: 4px;
+    padding: 10px 15 px;
+    border: none;
+    color: black;
+    font-weight: bold; 
+    cursor: pointer;  
+}
+
+.button:hover { 
+    background-color: grey ;     
+}
+
+
