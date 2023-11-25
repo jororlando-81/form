@@ -46,7 +46,7 @@ input{
 }
 
 .button{ 
-    background-color: whitesmoke ;
+    background-color: gray ;
     border-radius: 4px;
     padding: 10px 15 px;
     border: none;
@@ -59,4 +59,11 @@ input{
     background-color: grey ;     
 }
 
-
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
