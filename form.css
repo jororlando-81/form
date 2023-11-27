@@ -8,6 +8,14 @@ h1{
 
 } 
 
+#legend {
+
+    background-color: gray;
+    color: white;
+    padding: 15px 10px;
+
+  }
+
 body{ 
     background: lightgray ; 
     background-size: 100% ;  
@@ -15,12 +23,6 @@ body{
     height: 100%  ;
     font-size: 14px;
 } 
-
-input{ 
-    box-sizing: border-box;
-    outline: none;
-    border-radius: 4px;
-}   
 
 .input-group{ 
     margin: 10px  0 ;
@@ -35,16 +37,6 @@ input{
     font-weight: 300;
 }
 
-.column { 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-.column .input-group{ 
-    width: 50%;        
-}
 
 .button{ 
     
@@ -60,11 +52,11 @@ input{
     background-color: grey ;     
 }
 
-form {
+#form {
    
   padding-top: 15px;
   padding-right: 30px;
   padding-bottom: 50px;
   padding-left: 30px;
-  
+
 }
